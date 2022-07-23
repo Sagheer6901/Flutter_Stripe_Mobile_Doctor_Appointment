@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "179350183340",
+    "project_id": "iiimobile-45dca",
+    "storage_bucket": "iiimobile-45dca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179350183340:android:6ec826cfafe58fd91d2e09",
+        "android_client_info": {
+          "package_name": "com.example.outlook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "179350183340-d4b2mho4tnbled57kccvbaa754ppkq24.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4wAkfa0hl3RDsZL-YxlAJEUzYhxaG1a0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "179350183340-d4b2mho4tnbled57kccvbaa754ppkq24.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

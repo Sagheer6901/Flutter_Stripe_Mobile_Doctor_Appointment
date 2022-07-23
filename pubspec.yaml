@@ -1,0 +1,53 @@
+name: outlook
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.1
+
+  websafe_svg: 
+  flutter_staggered_grid_view: ^0.4.1
+  firebase_core: ^1.18.0
+  cloud_firestore: ^3.1.18
+  firebase_auth:
+  image_picker: ^0.8.5+3
+  firebase_storage: ^10.2.18
+  fluttertoast: ^8.0.9
+  day_picker: ^2.1.1
+  syncfusion_flutter_datepicker: ^20.1.61
+  get:
+  shared_preferences: 
+  flutter_launcher_icons:
+  scrollable_positioned_list: ^0.3.2
+  mailto:
+
+  flutter_stripe: ^4.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/Icons/
+    - assets/images/
+
+flutter_icons:
+  image_path: "assets/images/logo2.png"
+  android: true
+  ios: true
