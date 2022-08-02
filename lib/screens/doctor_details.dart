@@ -10,6 +10,7 @@ import 'package:outlook/controller/buttoncontroller.dart';
 import 'package:outlook/controller/datecontroller.dart';
 import 'package:intl/intl.dart';
 import 'package:outlook/screens/web_checkout.dart';
+import 'package:outlook/web_view.dart';
 import '../components/booking_details.dart';
 import 'package:flutter/material.dart';
 import 'package:syncfusion_flutter_datepicker/datepicker.dart';
@@ -109,7 +110,7 @@ class _BookingScreenState extends State<BookingScreen> {
               MaterialPageRoute(
                   builder:
                       (context) =>
-                  WebStripePay(selectedTime: selectedTime,date: date,instanceUser:FirebaseAuth.instance.currentUser!.uid,name: widget.data['name'],docid: widget.docid,)
+                          WebViewExample(selectedTime: selectedTime,date: date,instanceUser:FirebaseAuth.instance.currentUser!.uid,name: widget.data['name'],docid: widget.docid,)
               ));
         }
 

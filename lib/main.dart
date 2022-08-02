@@ -9,7 +9,10 @@ import 'package:outlook/screens/Welcome/welcome_screen.dart';
 import 'package:outlook/screens/auth/login.dart';
 import 'package:outlook/screens/auth/navscreen.dart';
 import 'package:outlook/screens/main/main_screen.dart';
+import 'package:outlook/web_view.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:webview_flutter/webview_flutter.dart';
+import 'package:webview_flutter_web/webview_flutter_web.dart';
 import 'firebase_options.dart';
 import 'package:flutter_stripe/flutter_stripe.dart';
 
@@ -38,6 +41,10 @@ void main() async {
             ? HomePage()
             : NavScreen(email: email, role: role),
   ));
+  WebView.platform = WebWebViewPlatform();
+
+  // runApp(const MaterialApp(home: WebViewExample()));
+
 }
 
 
